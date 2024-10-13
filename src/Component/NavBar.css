@@ -60,7 +60,7 @@
  @media  (max-width: 560px) {
      .Nav-Name,.Nav-item{
      
-      font-size: 0.7rem;
+      font-size: 0.6rem;
       margin: auto 6px;
       
    
@@ -70,8 +70,8 @@
      @media  (max-width: 430px) {
         .Nav-Name,.Nav-item{
         
-         font-size: 0.5rem;
-         margin: auto 6px;
+         font-size: 0.4rem;
+         margin: auto 5px;
          
       
          
@@ -81,7 +81,7 @@
             .Nav-Name,.Nav-item{
             
              font-size: 0.4rem;
-             margin: auto 6px;
+             margin: auto 5px;
              
           
              
