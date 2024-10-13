@@ -11,7 +11,7 @@ const UserQuery = () => {
     const[user,setUser]   =useState([])
 
     useEffect(()=>{
-        axios.get("http://localhost:8005/userData")
+        axios.get("https://my-portfoliobackend-qxeo.onrender.com/userData")
         .then((user)=>{ setUser(user.data)})
         .catch((error)=>{console.log(error)})
       }, [])
