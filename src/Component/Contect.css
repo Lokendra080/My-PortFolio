@@ -1,0 +1,126 @@
+
+
+
+h4 {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+
+.Compo {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.left-side{
+    width: 40%;
+    min-width: 37%;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px wheat;
+}
+
+
+
+.transparent-input {
+    background-color: transparent !important;
+    color: aliceblue !important;
+    text-transform: uppercase;
+    /* Sets text color to white */
+    border: 1px solid rgb(228, 213, 241);
+}
+
+.side{
+    margin: auto 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.first,h5{
+    margin: 25px auto;
+}
+.contacticons{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.footer2{
+    display: flex;
+    margin:10px auto ;
+    
+}
+
+h1>i{
+    padding: 20px ;
+}
+
+.footer2,i{
+    color: rgb(193, 233, 233); 
+}
+
+
+@media   (max-width: 560px)  {
+    *{
+        font-size: 15px;
+        margin: 5px;
+        padding: 2px;
+    }
+    h1>i{
+        padding: 5px ;
+    }
+    .Compo {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+       align-items: center;
+        flex-direction:column
+        
+    }
+    .left-side{
+        width: 80%;
+        
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 2px 2px 15px wheat;
+    }
+    h5{
+        font-size: 12px;
+    }
+   
+   
+}
+
+@media   (max-width: 295px)  {
+    *{
+        font-size: 12px;
+        margin: 2px;
+        padding: 2px;
+    }
+    h1>i{
+        padding: 5px ;
+    }
+    .Compo {
+        margin-top: 12px;
+        display: flex;
+        justify-content: center;
+       align-items: center;
+        flex-direction:column
+        
+    }
+    .left-side{
+        width: 80%;
+        
+        padding: 10px;
+        border-radius: 15px;
+        box-shadow: 2px 2px 15px wheat;
+    }
+    h5{
+        font-size: 10px;
+    }
+   
+   
+}
+

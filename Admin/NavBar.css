@@ -1,0 +1,98 @@
+
+
+
+.Nav-Name{
+    color:#e6f0bc;
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    width:90%;           
+    font-family: "Anton SC", sans-serif;
+    top: 0;
+    margin: auto auto;
+    position: fixed;
+
+}
+ 
+  .Nav-item{
+      text-decoration: none;
+      margin:auto 10px ;
+
+  }
+  
+ 
+
+
+.Nav-Name:hover{
+    color: aliceblue;
+    
+}
+.Nav-item:hover{
+    color:#f3a6c5;;
+    text-decoration: none;
+}
+.Nav-item{
+    color: aliceblue;
+    
+}
+
+.body-container{
+    width: 90%;
+    margin: auto;
+}
+@media  (max-width: 768px) {
+
+
+    .Nav-Name,.Nav-item{
+     /* color: #e6f0bc; */
+     font-size: 0.9rem;
+     margin: auto 8px;
+     
+  
+     
+    }
+     
+ }
+ 
+ @media  (max-width: 560px) {
+     .Nav-Name,.Nav-item{
+     
+      font-size: 0.7rem;
+      margin: auto 6px;
+      
+   
+      
+     }}
+
+     @media  (max-width: 430px) {
+        .Nav-Name,.Nav-item{
+        
+         font-size: 0.5rem;
+         margin: auto 6px;
+         
+      
+         
+        }} 
+
+        @media  (max-width: 430px) {
+            .Nav-Name,.Nav-item{
+            
+             font-size: 0.4rem;
+             margin: auto 6px;
+             
+          
+             
+            }} 
+            @media  (max-width: 320px) {
+                .Nav-Name,.Nav-item{
+                
+                 font-size: 0.4rem;
+                 margin: auto 2px;
+                 
+              
+                 
+                }
+            } 
